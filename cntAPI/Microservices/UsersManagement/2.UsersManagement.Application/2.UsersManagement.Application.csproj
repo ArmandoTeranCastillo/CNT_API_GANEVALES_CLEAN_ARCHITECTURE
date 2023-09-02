@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_2.UsersManagement.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1.UsersManagement.Domain\1.UsersManagement.Domain.csproj" />
+    <ProjectReference Include="..\UsersManagement.Common\UsersManagement.Common.csproj" />
+    <ProjectReference Include="..\UsersManagement.CURP\UsersManagement.CURP.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Distributors\Application\Endorsement\inController\" />
+    <Folder Include="DTOs\Distributors\Application\Endorsement\InServices\" />
+    <Folder Include="DTOs\Distributors\Consults\" />
+    <Folder Include="DTOs\Phones\in Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+</Project>

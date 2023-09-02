@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_4.UsersManagement.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1.UsersManagement.Domain\1.UsersManagement.Domain.csproj" />
+    <ProjectReference Include="..\2.UsersManagement.Application\2.UsersManagement.Application.csproj" />
+    <ProjectReference Include="..\3.UsersManagement.Infrastructure (EFCore)\3.UsersManagement.Infrastructure (EFCore).csproj" />
+  </ItemGroup>
+
+
+
+</Project>
